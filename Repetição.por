@@ -65,29 +65,6 @@ programa
 	}
 }
 
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro tabuada,x=1,resultado
-		escreva("\nQual a tabuada que deseja visualizar? ")
-		leia(tabuada)//16
-		enquanto(tabuada<1 ou tabuada>10)
-		{
-			escreva("\nDigite um número inteiro entre 1 e 10? ")
-			leia(tabuada)//12 7
-		}
-		
-		faca
-		{
-			resultado = tabuada * x
-			escreva("\n",tabuada," X ",x," = ",resultado)
-			x++ // x = x + 1
-		}
-		enquanto(x<=10)
-	}
-}
 
 /* $$$ Portugol Studio $$$ 
  * 
